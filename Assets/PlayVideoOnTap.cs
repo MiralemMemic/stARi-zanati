@@ -5,13 +5,13 @@ using UnityEngine.Video;
 
 public class PlayVideoOnTap : MonoBehaviour
 {
-    private VideoPlayer videoPlayer;
+    public VideoPlayer videoPlayer;
     Ray ray;
     RaycastHit hit;
     
     void Awake()
     {
-        videoPlayer = GetComponent<VideoPlayer> ();
+        //videoPlayer = GetComponent<VideoPlayer> ();
     }
 
     // Start is called before the first frame update
@@ -29,6 +29,7 @@ public class PlayVideoOnTap : MonoBehaviour
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if(Physics.Raycast(ray, out hit))
             {
+                Debug.Log("TAP");
                 if(videoPlayer.isPlaying)
                 {
                     videoPlayer.Pause();
