@@ -29,7 +29,7 @@ public class PlayVideoOnTap1 : MonoBehaviour
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if(Physics.Raycast(ray, out hit))
             {
-                Debug.Log("TAP");
+                Debug.Log("TAP 1");
                 if(videoPlayer.isPlaying)
                 {
                     videoPlayer.Pause();
