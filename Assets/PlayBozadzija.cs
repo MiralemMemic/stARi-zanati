@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class PlayVideoOnTap2 : MonoBehaviour
+public class PlayBozadzija : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     Ray ray;
@@ -29,14 +29,18 @@ public class PlayVideoOnTap2 : MonoBehaviour
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if(Physics.Raycast(ray, out hit))
             {
-                Debug.Log("TAP");
-                if(videoPlayer.isPlaying)
+                if(hit.collider.tag == "bozadzija") 
                 {
-                    videoPlayer.Pause();
-                }
-                else
-                {
-                    videoPlayer.Play();
+                    Debug.Log("TAP");
+                    if(videoPlayer.isPlaying)
+                    {
+                        videoPlayer.Pause();
+                    }
+                    else
+                    {
+                        videoPlayer.Play();
+                    }
+
                 }
             }
         }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class PlayVideoOnTap1 : MonoBehaviour
+public class PlayKazaz : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     Ray ray;
@@ -29,14 +29,18 @@ public class PlayVideoOnTap1 : MonoBehaviour
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if(Physics.Raycast(ray, out hit))
             {
-                Debug.Log("TAP 1");
-                if(videoPlayer.isPlaying)
+                if(hit.collider.tag == "kazaz") 
                 {
-                    videoPlayer.Pause();
-                }
-                else
-                {
-                    videoPlayer.Play();
+                    Debug.Log("TAP");
+                    if(videoPlayer.isPlaying)
+                    {
+                        videoPlayer.Pause();
+                    }
+                    else
+                    {
+                        videoPlayer.Play();
+                    }
+
                 }
             }
         }
