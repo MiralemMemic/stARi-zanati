@@ -681,7 +681,7 @@ MonoBehaviour:
       Location:
         Latitude: 43.8597256543583
         Longitude: 18.43121354238147
-        Altitude: 0
+        Altitude: 1
         AltitudeMode: 0
         Label: 
       OverrideAltitudeData:
@@ -694,7 +694,7 @@ MonoBehaviour:
     UseMovingAverage: 0
     HideObjectUntilItIsPlaced: 1
     ShowObjectAfterThisManyUpdates: 1
-  DebugMode: 0
+  DebugMode: 1
   ObjectLocationUpdated:
     m_PersistentCalls:
       m_Calls: []
@@ -745,7 +745,7 @@ Transform:
   m_GameObject: {fileID: 259715463}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4, y: 1, z: 1}
+  m_LocalScale: {x: 3.8, y: 2.6, z: 1}
   m_Children: []
   m_Father: {fileID: 165585585}
   m_RootOrder: 0
@@ -774,7 +774,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 9.67, z: 0.2}
+  m_Size: {x: 1, y: 9.67, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &259715467
 SpriteRenderer:
@@ -1254,8 +1254,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463930438}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.46, y: 0, z: -6.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 854905465}
@@ -1947,7 +1947,7 @@ MonoBehaviour:
     UseMovingAverage: 0
     HideObjectUntilItIsPlaced: 1
     ShowObjectAfterThisManyUpdates: 1
-  DebugMode: 0
+  DebugMode: 1
   ObjectLocationUpdated:
     m_PersistentCalls:
       m_Calls: []
@@ -2904,7 +2904,7 @@ MonoBehaviour:
     UseMovingAverage: 0
     HideObjectUntilItIsPlaced: 1
     ShowObjectAfterThisManyUpdates: 1
-  DebugMode: 0
+  DebugMode: 1
   ObjectLocationUpdated:
     m_PersistentCalls:
       m_Calls: []
@@ -5538,7 +5538,7 @@ Transform:
   m_GameObject: {fileID: 1641756603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 948764373}
   m_RootOrder: 0
@@ -5567,7 +5567,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 9.67, z: 0.20000005}
+  m_Size: {x: 1, y: 9.67, z: 0.20000005}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1641756607
 SpriteRenderer:
@@ -6844,7 +6844,7 @@ Transform:
   m_GameObject: {fileID: 1985308836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 633987596}
   m_RootOrder: 0
@@ -6873,7 +6873,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 9.67, z: 0.2}
+  m_Size: {x: 1, y: 9.67, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1985308840
 SpriteRenderer:
